@@ -1,23 +1,14 @@
-<<<<<<< HEAD
-## Getting Started
+# Projeto Animais - API Spring Boot
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Repositório criado para estudo e desenvolvimento de uma API RESTful utilizando **Java** e **Spring Boot**.
 
-## Folder Structure
+## 🚀 Tecnologias Utilizadas
+* **Java** (Orientação a Objetos, Herança, Sobrecarga)
+* **Spring Boot** (Gerenciamento de rotas e arquitetura backend)
+* **Gradle** (Gerenciador de dependências)
+* **Git & GitHub** (Versionamento de código)
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# Animais
->>>>>>> be5793fd4b8b38fe96fb90097a0ee3671b504555
-# Animais
+## 📌 Funcionalidades Atuais
+* Endpoints `GET` para listagem de animais (com suporte a `@PathVariable`).
+* Endpoints `POST` para cadastro de animais utilizando desserialização de JSON via `@RequestBody`.
+* Hierarquia de classes modelada com superclasse (`Animais`) e subclasses (`Cachorro`, `Gato`, etc.).
